@@ -12,6 +12,8 @@ def get_backup_frequency():
         else:
             print("Invalid input. Please enter 'd', 'w', or 'y'.")
 
+print('**Welcome to the automatic backup script!**\nPlease enter the required information for the Auto Backup\n\n')
+
 source_dir = input('Enter the source directory: ')
 destination_dir = input('Enter the destination directory: ')
 backup_frequency = get_backup_frequency()
